@@ -8,7 +8,7 @@ export default function BottomNav() {
         <CalendarDays className="h-5 w-5" />
         Home
       </NavLink>
-      <NavLink to="/symptoms" className="flex flex-col items-center text-sm">
+      <NavLink to="/cycle-symptoms" className="flex flex-col items-center text-sm">
         <HeartPulse className="h-5 w-5" />
         Symptoms
       </NavLink>

@@ -14,6 +14,7 @@ import Insights from "./pages/insights";
 import Nearby from "./pages/nearbyServices";
 import Settings from "./pages/settings";
 import Trends from "./pages/trends";
+import CycleSymptoms from "./pages/cycleSymptoms";
 
 export default function AnimatedAppRoutes() {
   const location = useLocation();
@@ -34,6 +35,8 @@ export default function AnimatedAppRoutes() {
         <Route path="/nearby" element={<Nearby />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/trends" element={<Trends />} />
+        <Route path="/cycle-symptoms" element={<CycleSymptoms />} />
+
 
       </Routes>
     </AnimatePresence>

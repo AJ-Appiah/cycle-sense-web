@@ -1,0 +1,21 @@
+/* Highlight custom marked days (cycle/symptom) */
+.marked-date {
+  background: #fde68a !important; /* Tailwind amber-300 */
+  border-radius: 50%;
+  color: #db5d1e !important;      /* Tailwind amber-900 */
+  font-weight: bold;
+  position: relative;
+}
+
+/* Optional: Add a small dot under marked dates */
+.marked-date::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #f43f5e; /* Tailwind rose-500 */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
