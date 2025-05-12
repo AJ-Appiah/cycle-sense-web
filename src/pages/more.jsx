@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function More() {
   const links = [
-    { name: "Book Appointments", path: "/appointments" },
+    { name: "Appointments", path: "/appointments" },
     { name: "Cycle Tracker", path: "/cycle-tracker" },
     { name: "Cycle Details", path: "/cycle-details" },
     { name: "Calendar View", path: "/calendar" },
