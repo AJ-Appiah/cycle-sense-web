@@ -1,9 +1,8 @@
-import React from 'react'
-
-const Symptoms = () => {
-  return (
-    <div>Symptoms</div>
-  )
-}
-
-export default Symptoms
+export default function Symptoms() {
+    return (
+      <div className="p-4">
+        <h1 className="text-xl font-bold">Symptoms</h1>
+        <p>Log your symptoms here.</p>
+      </div>
+    );
+  }
